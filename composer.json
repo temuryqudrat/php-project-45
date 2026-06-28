@@ -1,15 +1,17 @@
 {
-    "name": "hexlet/code",
-    "description": "Brain Games - a set of console games",
-    "type": "project",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Hexlet\\BrainGames\\": "src/"
-        }
-    },
-    "bin": [
-        "bin/brain-games"
-    ],
-    "require": {}
+  "name": "hexlet/code",
+  "description": "Brain Games - a set of console games",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "src/Cli.php"
+    ]
+  },
+  "bin": [
+    "bin/brain-games"
+  ],
+  "require": {
+    "wp-cli/php-cli-tools": "^0.13.0"
+  }
 }
