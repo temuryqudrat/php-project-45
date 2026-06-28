@@ -1,0 +1,11 @@
+{
+    "name": "hexlet/brain-games",
+    "description": "Brain Games - a set of console games",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\BrainGames\\": "src/"
+        }
+    },
+    "require": {}
+}
